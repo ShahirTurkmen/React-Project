@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>StackBlitz</title>
+    <script src="/webcontainer.41692973.js"></script>
+    <link
+      rel="preload"
+      as="script"
+      href="/webcontainer.41692973.js"
+      fetchpriority="low"
+    />
+     <link
+      rel="preload"
+      as="script"
+      href="/fetch.worker.41692973.js"
+      fetchpriority="low"
+    /> 
+    <!-- <script type="module"
+    src="http://localhost:3000/assets/vite/fetch.worker.41692973.js"
+  ></script> -->
+    <script
+      src="/assets/vite/headless-BNfRU0p-.js"
+      crossorigin="anonymous"
+      type="module"
+    ></script>
+    <link
+      rel="modulepreload"
+      href="/assets/vite/semver-Zyv2pDaP.js"
+      as="script"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script type="application/json" id="webcontainer-context">
+      {
+        "options": {
+          "baseUrl": "https://localhost:5173",
+          "initOptions": {
+            "server": "https://local-corp.webcontainer-api.io",
+            "isolationPolicy": "require-corp",
+            "version": "41692973",
+            "flattenedServer": false
+          },
+          "systemBinaries": {},
+          "git": { "proxy": "https://p.stackblitz.com" },
+          "turboBaseUrl": "https://t.staticblitz.com",
+          "registryProxy": "https://nr.staticblitz.com",
+          "registryMaxConcurrency": ""
+        },
+        "embedder": "https://localhost:5173/",
+        "shortAppId": false
+      }
+    </script>
+  </body>
+</html>
+
