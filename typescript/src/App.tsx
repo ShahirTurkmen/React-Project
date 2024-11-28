@@ -51,9 +51,13 @@ function App() {
   //     placeholder:"kk"
   //   })
   // },[])
+  
   return (
     <>
-      <div className="dropdown">
+    <div className="nav">
+        
+    </div>
+      <div className="dropdown dropdown-end">
         <div tabIndex={0} role="button" className="btn m-1">
           Click
           <svg
@@ -70,13 +74,15 @@ function App() {
           tabIndex={0}
           className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
         >
-          {themes.map((theme) => (
-            <li>
-              <a data-set-theme={theme} data-act-class="ACTIVECLASS">
-                {theme}
-              </a>
-            </li>
-          ))}
+          {themes.map((theme) => {
+           return (
+              <li key={theme}>
+                <a data-set-theme={theme} data-act-class="ACTIVECLASS">
+                  {theme}
+                </a>
+              </li>
+            )
+          })}
         </ul>
       </div>
       {/*  <li>

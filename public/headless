@@ -34,7 +34,7 @@
     <script type="application/json" id="webcontainer-context">
       {
         "options": {
-          "baseUrl": "https://localhost:5173",
+          "baseUrl": "http://localhost:5173",
           "initOptions": {
             "server": "https://local-corp.webcontainer-api.io",
             "isolationPolicy": "require-corp",
@@ -47,7 +47,7 @@
           "registryProxy": "https://nr.staticblitz.com",
           "registryMaxConcurrency": ""
         },
-        "embedder": "https://localhost:5173/",
+        "embedder": "http://localhost:5173/",
         "shortAppId": false
       }
     </script>
